@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from 'vue-router'
 import Container from '@/layout/Container.vue'
 </script>
 
@@ -10,8 +10,12 @@ import Container from '@/layout/Container.vue'
         <div class="flex items-center">
           <!--logo section-->
           <RouterLink to="/">
-            <img src="../assets/images/Logo.png" alt="logo for dectop" class="hidden sm:flex">
-            <img src="../assets/images/MobileLogo.png" alt="logo for mobile" class="flex sm:hidden">
+            <img src="../assets/images/Logo.png" alt="logo for dectop" class="hidden sm:flex" />
+            <img
+              src="../assets/images/MobileLogo.png"
+              alt="logo for mobile"
+              class="flex sm:hidden"
+            />
           </RouterLink>
         </div>
         <div class="flex items-center">
@@ -19,12 +23,12 @@ import Container from '@/layout/Container.vue'
           <div class="flex sm:hidden">
             <!--mobile menu-->
             <button>
-              <img src="../assets/icons/List.png" alt="drop down menu">
+              <img src="../assets/icons/List.png" alt="drop down menu" />
             </button>
           </div>
           <div class="hidden sm:flex">
             <!--dectop menu-->
-            <nav class="flex flex-wrap gap-10 text-[15xp]  ">
+            <nav class="flex flex-wrap gap-10 text-[15xp]">
               <RouterLink to="">Home</RouterLink>
               <RouterLink to="">Services</RouterLink>
               <RouterLink to="">Fine a Doctor</RouterLink>
@@ -33,7 +37,11 @@ import Container from '@/layout/Container.vue'
           </div>
         </div>
         <div class="hidden sm:flex items-center">
-          <button class="flex justify-center items-center w-[120px] h-[35px] bg-[#2F80ED] text-white text-[1rem] rounded-[20px]">Rigester</button>
+          <button
+            class="flex justify-center items-center w-[120px] h-[35px] bg-[#2F80ED] text-white text-[1rem] rounded-[20px]"
+          >
+            Rigester
+          </button>
         </div>
       </div>
     </Container>

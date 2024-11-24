@@ -1,9 +1,9 @@
 <script setup>
-
+import MainBaner from '@/components/MainBaner.vue'
 </script>
 
 <template>
   <div>
-    <h2>home page</h2>
+    <MainBaner />
   </div>
 </template>
