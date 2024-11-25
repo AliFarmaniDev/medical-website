@@ -16,7 +16,7 @@ import ButtonBox from './ButtonBox.vue'
           <img src="../assets/icons/Star.png" alt="star shape" class="w-3 h-3" />
           <p class="text-[#2F80ED]">Rated #1 choice for healthcare appointment by users</p>
         </div>
-        <h2 class="text-wrap text-black text-[28px] font-bold sm:text-[39px] sm:font-semibold">
+        <h2 class="text-wrap text-black text-[28px] font-bold sm:text-[43px] sm:font-semibold">
           Connecting You <span class="italic text-[#2F80ED]">to</span> Better Health
         </h2>
         <p class="text-wrap text-[#808080] text-[13px] sm:text-[14px]">

@@ -1,3 +1,22 @@
 {
-    
+  "doctor-expertis": [
+    {
+      "id": 1,
+      "icon": "../src/assets/icons/Icon1.png",
+      "title": "Cardiologist",
+      "body": "Heart specialist focusing on cardiovascular health and diseases"
+    },
+    {
+      "id": 2,
+      "icon": "../src/assets/icons/Icon2.png",
+      "title": "Neurologist",
+      "body": "Doctor specializing in diagnnosing and treating nervouse"
+    },
+    {
+      "id": 3,
+      "icon": "../src/assets/icons/Icon3.png",
+      "title": "ENT Specialist",
+      "body": "Doctor specializing im ear, nose , and throat disorder and surgeries"
+    }
+  ]
 }
