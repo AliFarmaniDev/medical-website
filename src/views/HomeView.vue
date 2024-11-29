@@ -4,7 +4,7 @@ import Container from '@/layout/Container.vue'
 //importing components
 import MainBaner from '@/components/MainBaner.vue'
 import ChooseDoctor from '@/components/ChooseDoctor.vue'
-import AppsFeatures from '@/components/AppsFeatures.vue';
+import AppsFeatures from '@/components/AppsFeatures.vue'
 </script>
 
 <template>
@@ -33,11 +33,17 @@ import AppsFeatures from '@/components/AppsFeatures.vue';
             class="flex sm:hidden"
           />
           <!--image for desctop-->
-          <img src="../assets/images/DoctorsDesctop.png" alt="doctors image" class="hidden sm:flex sm:w-[521px] sm:h-[321px]">
+          <img
+            src="../assets/images/DoctorsDesctop.png"
+            alt="doctors image"
+            class="hidden sm:flex sm:w-[521px] sm:h-[321px]"
+          />
         </div>
         <div class="flex flex-col justify-between w-full mt-5 gap-4 sm:w-[600px] sm:h-[321px]">
-          <div class="w-full hidden sm:flex items-center bg-[#2f81ed48] h-[34px] rounded-[20px] px-3 gap-2">
-            <img src="../assets/icons/Star.png" alt="star shape">
+          <div
+            class="w-full hidden sm:flex items-center bg-[#2f81ed48] h-[34px] rounded-[20px] px-3 gap-2"
+          >
+            <img src="../assets/icons/Star.png" alt="star shape" />
             <p class="text-[#2F80ED] text-[12px] font-medium">
               Rated #1 for appointment with many professional doctors
             </p>
@@ -53,7 +59,9 @@ import AppsFeatures from '@/components/AppsFeatures.vue';
             </div>
             <div class="flex flex-col">
               <span class="text-[#2F80ED] text-[40px] font-medium text-center">10K+</span>
-              <span class="text-[#808080] text-[14px] font-medium">Houers of Patent Consolutions</span>
+              <span class="text-[#808080] text-[14px] font-medium"
+                >Houers of Patent Consolutions</span
+              >
             </div>
           </div>
         </div>
