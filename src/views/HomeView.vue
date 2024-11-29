@@ -4,6 +4,7 @@ import Container from '@/layout/Container.vue'
 //importing components
 import MainBaner from '@/components/MainBaner.vue'
 import ChooseDoctor from '@/components/ChooseDoctor.vue'
+import AppsFeatures from '@/components/AppsFeatures.vue';
 </script>
 
 <template>
@@ -58,9 +59,10 @@ import ChooseDoctor from '@/components/ChooseDoctor.vue'
         </div>
         <!--end section-->
       </div>
-      <div class="my-[50px] flex-col sm:flex-row">
-        <!--app`s features section-->
-      </div>
     </Container>
+  </div>
+  <div>
+    <!--apps feature-->
+    <AppsFeatures />
   </div>
 </template>
