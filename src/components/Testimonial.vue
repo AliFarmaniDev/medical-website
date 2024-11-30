@@ -10,7 +10,7 @@ testimonialStore.getTestimonial()
 <template>
   <Container>
     <div class="flex flex-col">
-      <h2 class="text-wrap text-black capitalize text-[32px] font-bold text-center">
+      <h2 class="text-wrap text-black capitalize text-[32px] font-bold text-center sm:text-start">
         testimonial from our <span class="italic text-[#2F80ED]">satisfied</span> patients
       </h2>
       <div class="flex flex-col sm:flex-row gap-3">

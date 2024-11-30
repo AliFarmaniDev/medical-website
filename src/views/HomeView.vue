@@ -6,6 +6,7 @@ import MainBaner from '@/components/MainBaner.vue'
 import ChooseDoctor from '@/components/ChooseDoctor.vue'
 import AppsFeatures from '@/components/AppsFeatures.vue'
 import Testimonial from '@/components/Testimonial.vue'
+import ShowPost from '@/components/ShowPost.vue'
 </script>
 
 <template>
@@ -77,5 +78,9 @@ import Testimonial from '@/components/Testimonial.vue'
   <div>
     <!--testimonial section-->
     <Testimonial />
+  </div>
+  <div>
+    <!--blog section-->
+    <ShowPost />
   </div>
 </template>
