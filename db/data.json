@@ -38,27 +38,27 @@
   "posts": [
     {
       "id":1,
-      "post-image": "../src/assets/images/PostImage1.png",
-      "post-category": "Dite Tips",
-      "created-at": "28 April 2024",
-      "post-title": "dite tips for a healthier life...",
-      "post-body": "Mataning a healthly diet is crucial for overall well-being and can prevent nu..."
+      "postImage": "../src/assets/images/PostImage1.png",
+      "postCategory": "Dite Tips",
+      "createdAt": "28 April 2024",
+      "postTitle": "dite tips for a healthier life...",
+      "postBody": "Mataning a healthly diet is crucial for overall well-being and can prevent nu..."
     },
     {
       "id":2,
-      "post-image": "../src/assets/images/PostImage2.png",
-      "post-category": "Health Tips",
-      "created-at": "21 April 2024",
-      "post-title": "the importtance of regular...",
-      "post-body": "Regular health screenings are essentail for early detection and prevention"
+      "postImage": "../src/assets/images/PostImage2.png",
+      "postCategory": "Health Tips",
+      "createdAt": "21 April 2024",
+      "postTitle": "the importtance of regular...",
+      "postBody": "Regular health screenings are essentail for early detection and prevention"
     },
     {
       "id":3,
-      "post-image": "../src/assets/images/PostImage3.png",
-      "post-category": "Health Tips",
-      "created-at": "14 April 2024",
-      "post-title": "boosting you`r immune style...",
-      "post-body": "A strong immune system is vital for fighting off infections and staying health..."
+      "postImage": "../src/assets/images/PostImage3.png",
+      "postCategory": "Health Tips",
+      "createdAt": "14 April 2024",
+      "postTitle": "boosting you`r immune style...",
+      "postBody": "A strong immune system is vital for fighting off infections and staying health..."
     }
   ]
 }
