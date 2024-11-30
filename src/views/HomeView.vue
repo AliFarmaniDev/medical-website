@@ -7,6 +7,7 @@ import ChooseDoctor from '@/components/ChooseDoctor.vue'
 import AppsFeatures from '@/components/AppsFeatures.vue'
 import Testimonial from '@/components/Testimonial.vue'
 import ShowPost from '@/components/ShowPost.vue'
+import ButtomSection from '@/components/ButtomSection.vue'
 </script>
 
 <template>
@@ -82,5 +83,9 @@ import ShowPost from '@/components/ShowPost.vue'
   <div>
     <!--blog section-->
     <ShowPost />
+  </div>
+  <div>
+    <!--top footer section-->
+    <ButtomSection />
   </div>
 </template>
