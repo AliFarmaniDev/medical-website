@@ -1,5 +1,11 @@
 <script setup>
+import { usePostStore } from '@/stores/post';
+//import components
 import Container from '@/layout/Container.vue';
+
+const postStore = usePostStore()
+//get data
+postStore.getPosts()
 </script>
 
 <template>
