@@ -5,6 +5,7 @@ import Container from '@/layout/Container.vue'
 import MainBaner from '@/components/MainBaner.vue'
 import ChooseDoctor from '@/components/ChooseDoctor.vue'
 import AppsFeatures from '@/components/AppsFeatures.vue'
+import Testimonial from '@/components/Testimonial.vue'
 </script>
 
 <template>
@@ -72,5 +73,9 @@ import AppsFeatures from '@/components/AppsFeatures.vue'
   <div>
     <!--apps feature-->
     <AppsFeatures />
+  </div>
+  <div>
+    <!--testimonial section-->
+    <Testimonial />
   </div>
 </template>

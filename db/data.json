@@ -18,5 +18,21 @@
       "title": "ENT Specialist",
       "body": "Doctor specializing im ear, nose , and throat disorder and surgeries"
     }
+  ],
+  "testimonial": [
+    {
+      "id": 1,
+      "image": "../src/assets/images/Image1.png",
+      "body": "l`ve been using this sitefor a few months and it`s incredinly reliabel i appreciate the convenience of booking and canceling appointments anytime anywhere",
+      "name": "david panjiatan",
+      "job": "software engineer"
+    },
+    {
+      "id": 2,
+      "image": "../src/assets/images/Image2.png",
+      "body": "Managing appointments for my intry family used to be chaotic this site makes its so much easier to keep track of evryone`s schedules in one place",
+      "name": "ester howard",
+      "job": "project manager"
+    }
   ]
 }

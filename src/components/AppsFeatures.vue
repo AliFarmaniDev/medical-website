@@ -66,7 +66,9 @@ import Container from '@/layout/Container.vue'
             </p>
           </div>
         </div>
-        <div class="w-full hidden sm:flex sm:flex-col rounded-[12px] bg-[#F5F5F5] mt-5 order-3 sm:w-[500px] sm:justify-between">
+        <div
+          class="w-full hidden sm:flex sm:flex-col rounded-[12px] bg-[#F5F5F5] mt-5 order-3 sm:w-[500px] sm:justify-between"
+        >
           <!--box3-->
           <div class="flex flex-col gap-3 p-3">
             <img src="../assets/icons/Icon Badge3.png" alt="icon3" class="w-[40px] h-[40px]" />
@@ -82,7 +84,11 @@ import Container from '@/layout/Container.vue'
               alt="iphone 13 pro"
               class="w-[536px] h-[168px] sm:w-[320px] sm:h-[320px] sm:hidden"
             />
-            <img src="../assets/images/iPhone 13 Pro (3) 1 Desctop.png " alt="" class="hidden sm:flex">
+            <img
+              src="../assets/images/iPhone 13 Pro (3) 1 Desctop.png "
+              alt=""
+              class="hidden sm:flex"
+            />
           </div>
         </div>
       </div>
