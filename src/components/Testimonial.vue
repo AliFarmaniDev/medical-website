@@ -22,12 +22,13 @@ testimonialStore.getTestimonial()
           <img :src="data.image" :alt="data.body" class="sm:w-[200px] sm:h-[200px]" />
           <div class="p-3 my-3">
             <p class="text-black text-wrap font-bold sm:text-[12px]">{{ data.body }}</p>
-            <h3 class="my-2  text-[#2F80ED] capitalize text-[20px] font-normal sm:text-[18px]">
+            <h3 class="my-2 text-[#2F80ED] capitalize text-[20px] font-normal sm:text-[18px]">
               {{ data.name }}
             </h3>
-            <span class="my-2 sm:my-1 text-[#808080] capitalize text-[18px] font-medium sm:text-[15px]">{{
-              data.job
-            }}</span>
+            <span
+              class="my-2 sm:my-1 text-[#808080] capitalize text-[18px] font-medium sm:text-[15px]"
+              >{{ data.job }}</span
+            >
           </div>
         </div>
       </div>
